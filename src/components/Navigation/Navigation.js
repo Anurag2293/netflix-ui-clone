@@ -19,7 +19,9 @@ const Navigation = () => {
             <img className={styles.logo} src={logo} alt="" />
             <ul className={styles.navigationList}>
                 {navItems.map((item, index) => (
-                    <li className={styles.navigationItem} key={index}>{item}</li>
+                    <li className={styles.navigationItem} key={index}>
+                        <a href="/">{item}</a>
+                    </li>
                 ))}
             </ul>
             </div>
