@@ -1,0 +1,29 @@
+.navigation {
+    background-color: grey;
+    color: #e5e5e5;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainNavigation {
+    display: flex;
+}
+
+.logo {
+    max-width: 92px;
+    height: fit-content;
+}
+
+.navigationList {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.navigationItem {
+    margin-left: 1rem;
+}
